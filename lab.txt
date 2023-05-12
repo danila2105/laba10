@@ -13,7 +13,7 @@ int main()
 
 void var2()
 {
-	int a, b, c, d;
+	int a1, b, c, d;
 	
 	scanf("%d", &a);
 	getchar();
