@@ -1,0 +1,39 @@
+#define _CRT_SECURE_NO_WARNINGS
+#include <stdio.h>
+#include <math.h>
+
+void var2();
+
+int main() 
+{
+	var2();
+
+	return 0;
+}
+
+void var2()
+{
+	int a, b, c, d;
+	
+	scanf("%d", &a);
+	getchar();
+	printf("Insert num2: ");
+	scanf("%d", &b);
+	getchar();
+	printf("Insert num3: ");
+	scanf("%d", &c);
+	getchar();
+	printf("Insert num4: ");
+	scanf("%d", &d);
+
+	int k1, k2;
+	printf("Insert dop num1: ");
+	scanf("%d", &k1);
+	getchar();
+	printf("Insert dop num1: ");
+	scanf("%d", &k2);
+
+	printf("Calculation....\n");
+	int counter = 0;
+
+	
